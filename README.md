@@ -4,16 +4,14 @@ PhantomSecure.xyz is a non‑commercial historical reconstruction of the former 
 This project preserves the visual design, structure, and public‑facing layout of the original site for educational and archival reference.
 
 ## 🔧 Built With
-- HTML, CSS, JavaScript  
-- Modern frontend tooling  
-- AI‑assisted replication  
-- Lovable (used to accelerate UI rebuilding and layout reconstruction)
-
+- React 19 + TypeScript
+- TanStack Start
+- Tailwind CSS v4
+- Lovable
 
 ## 🌐 Deployment
-Live at: **https://phantomsecure.xyz**  
-Hosted on Vercel with Cloudflare DNS.
+Built and previewed with Lovable. Publish from the Lovable editor to make the site live.
 
-##Author
+## Author
 **Mr Xeno**
 
