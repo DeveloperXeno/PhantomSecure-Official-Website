@@ -1,0 +1,58 @@
+.topbar {border-bottom: 1px solid #bab6b6;}
+.topicon img:hover {
+        border-top: 1px solid white;
+}
+
+.mobile {
+	display: none;
+}
+
+.topicon img {
+        border-top: 1px solid black;
+        position: relative;
+        height: 2.5vw;
+}
+
+
+.smalltext1 {font-size:1.25vw; line-height: 1.8vw; color:white }
+
+.topbar { position: relative; background-color: rgba(14, 13, 13, 1); width: 100%; height: 2.8vw; }
+.left   { position: absolute; left: 0px; top: 0px}
+.right  { position: absolute; right: 0px; top: 0px}
+.main   { position: relative;  width: 100%;  }
+.tile   { position: relative; }
+.bottom {   position: absolute;  bottom: 20%; }
+.center {   position: relative;  top: 40%;  -webkit-transform: translateY(-50%);  -ms-transform: translateY(-50%);  transform: translateY(-50%); }
+.title  { font-size: 4vw; color: white; font-family: 'Lato', sans-serif; padding-left:10%; padding-right: 10%; padding-bottom: 1%; padding-top:1%}
+.title2  { font-size: 3vw; color: white; font-family: 'Lato', sans-serif; padding-left:10%; padding-right: 10%; padding-bottom: 1%; padding-top:1%}
+.text   { font-size: 1.5vw; color: white; font-family: 'Muli', sans-serif;  padding-left:10%; padding-right: 10%}
+.titleb  { font-size: 4vw; color: #534741; font-family: 'Lato', sans-serif; padding-left:10%; padding-right: 10%; padding-bottom: 1%; padding-top:1%}
+.titleb2  { font-size: 4vw; color: #534741; font-family: 'Lato', sans-serif; padding-left:10%; padding-right: 10%; padding-bottom: 1%; padding-top:1%}
+.textb  { font-size: 1.5vw; color: #534741; font-family: 'Muli', sans-serif;  padding-left:10%; padding-right: 10% }
+.textb a { font-size: 1.5vw; color: #534741; font-family: 'Muli', sans-serif; text-decoration: underline;  }
+
+
+.titlel  { font-size: 4vw; color: white; font-family: 'Lato', sans-serif; padding-left:2%; padding-right: 2%; padding-bottom: 1%; padding-top:1%}
+.textl  { font-size: 1.5vw; color: white; font-family: 'Muli', sans-serif;  padding-left:2%; padding-right: 2%}
+.titlelb  { font-size: 4vw; color: #534741; font-family: 'Lato', sans-serif; padding-left:2%; padding-right: 2%; padding-bottom: 1%; padding-top:1%}
+.textlb { font-size: 1.5vw; color: #534741; font-family: 'Muli', sans-serif;  padding-left:2%; padding-right: 2% }
+
+
+.tileimg {  position: absolute; left:0px; top: 0px; width: 100% }
+.btn    { color: #6dcff6; font-size: 1.8vw; text-align: center; width: 100%; padding-top: 1%}
+.footer1 { background-color: #000000; border-top: 1px solid #6dcff6; position: relative; width: 100%; line-height: 200% }
+.footer2 { background-color: #000000; position: relative; width: 100%; line-height: 200% }
+.footer1 b { color: #6dcff6 }
+
+.inputform td { font-size: 1.2vw; color: #bd9f03; font-family: 'Muli', sans-serif;  padding-left:1vw; padding-right:1vw}
+.inputform input { border: 1px solid #6dcff6; }
+.inputform textarea { border: 1px solid #6dcff6;}
+
+
+.orderform th { font-size: 1.2vw; color: #393939; font-family: 'Muli', sans-serif;  padding-left:1vw; padding-right:1.5vw}
+.orderform td { font-size: 1.2vw; color: #bd9f03; font-family: 'Muli', sans-serif;  padding-left:1vw; padding-right:1.5vw}
+.orderform input { border: 0px solid #6dcff6; background-color: #717171; color: #ffffff; padding: 2%;}
+.orderform textarea { border: 0px solid #6dcff6; background-color: #717171; color: #ffffff; padding: 2%;}
+
+.cartform td { color: #828282; font-size: 1.2vw; }
+
