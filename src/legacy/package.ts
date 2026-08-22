@@ -44,7 +44,7 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 	<div class="titleb" style="color: #362f2d; width:100%; letter-spacing: 0.06vw; line-height: 1.2; margin-bottom: 1.5vw; font-size: 4.5vw;">Phantom Secure Packages</div>
 	<div class=textb style="width: 90%; margin: 0 auto; color: #4a4a4a; font-size: 2.4vw; line-height: 1.5;">
 	Simple, effective and easy to use while highly secure, Phantom Secure Encrypted Devices<br>
-has been recognized by government agencies and Cyber Experts as "Uncrackable".
+has been reviewed by security professionals and built on trusted encryption standards.
 	</div>
 	<img src="/ps/pack_16.png" style="width: 40%; margin-top: 2vw;" alt="Phantom Secure BlackBerry device">
 	</center>

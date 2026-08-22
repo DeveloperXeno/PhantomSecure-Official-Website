@@ -48,7 +48,7 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
  <p>
 Over decade ago, we realized where mobile technology was headed and what was needed to utilize these advancements while still enabling businesses and executives to keep their information confidential and private.
  <p>
-With trust as being our foundation, we have dedicated our time over the years with one goal in mind - the successful protection and preservation of our universal human right to privacy. Today we have earned our global reputation as the most trusted communications service. This is something we have taken great pride in and the result has lead to being recognized as "uncrackable" by Cyber Experts and Government Agencies.
+With trust as being our foundation, we have dedicated our time over the years with one goal in mind - the successful protection and preservation of our universal human right to privacy. Today we have earned our global reputation as the most trusted communications service. This is something we have taken great pride in and the result is a service built on trusted, independently reviewed encryption standards.
  <p>
 Secure your business and personal communications today.
  <p>

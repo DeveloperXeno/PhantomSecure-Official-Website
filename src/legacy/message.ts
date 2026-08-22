@@ -40,7 +40,7 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 	<img src="/ps/message_3.png" width=100% class=tileimg >
 	<div class=center style='width:100%; top:35%'><center>
 	<div class="titleb" style="color: white; width:80%;letter-spacing: 0.09vw; text-transform: uppercase;  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.6);
-">The Most Trusted "Uncrackable" Private Messaging Service<span style='color:#6dcff6'>.</span></div>
+">The Most Trusted Private Messaging Service<span style='color:#6dcff6'>.</span></div>
 	<div class=text>Confirmed by Cyber Experts and Government Agencies.</div>
 	</center>
 	</div>
@@ -109,7 +109,7 @@ Around the clock protection.<br><br>&nbsp;
 <div class="tile"  data-sb="fadeInUp" data-sb-hide="fadeOutUp">
 	<img src="/ps/message_6.png" class=tileimg>
 	<div class=center >
-	<div class="titlelb">Uncrackable Encryption
+	<div class="titlelb">Trusted Encryption Standards
 
 </span></div>
 	<div class="textlb">

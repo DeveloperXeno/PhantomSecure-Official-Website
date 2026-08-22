@@ -10,7 +10,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Encrypted BlackBerry devices with uncrackable PGP messaging, private chat and worldwide support.",
+          "Encrypted BlackBerry devices with trusted PGP encryption, private chat and worldwide support.",
       },
       {
         property: "og:title",
@@ -19,7 +19,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Encrypted BlackBerry devices with uncrackable PGP messaging, private chat and worldwide support.",
+          "Encrypted BlackBerry devices with trusted PGP encryption, private chat and worldwide support.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://phantom-secure-xyz.lovable.app/" },
