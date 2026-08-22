@@ -96,7 +96,7 @@ We must stand against any government measure that would compromise or weaken enc
 <span style='font-size: 1.2vw'>November 13, 2016</span><br>
 <span style='font-size: 2.2vw'>The debate over government backdoors into encryption isn't just happening in the U.S.</span><br>
 <img width=80% src="/ps/images/da65790ae302fc42d6d9c7ecba94e652.jpeg" alt=""><div id=expand8 style='display:none'>
-Nearly 200 experts, companies and civil society groups from more than 40 countries are asking governments around the world to support strong encryption <a target=_blank href="https://www.washingtonpost.com/news/the-switch/wp/2016/01/11/the-debate-over-government-backdoors-into-encryption-isnt-just-happening-in-the-u-s/">and reject proposals that would undermine the digital security it provides.</a></div>
+Nearly 200 experts, companies and civil society groups from more than 40 countries are asking governments around the world to support strong encryption <a target=_blank href="https://www.washingtonpost.com/news/the-switch/wp/2016/01/11/the-debate-over-government-backdoors-into-encryption-isnt-just-happening-in-the-u-s/">and reject proposals that would undermine the digital security it provides.</a></div>
 <p>
 <span style='font-size: 1vw'>Andrea Peterson</span>
  <div  onClick='$("#expand8").fadeIn("slow"); $(this).toggle();' class=btn style='position: absolute; bottom: 2%; right: 2%; text-align: right; width: 100%; font-size: 1.5vw;'>Read more &gt; <img src="/ps/images/w4.png" style='width: 1.5%;vertical-align: baseline;'></div>

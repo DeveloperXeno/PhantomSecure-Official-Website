@@ -6,10 +6,10 @@ import { html } from "@/legacy/buy";
 export const Route = createFileRoute("/buy")({
   head: () => ({
     meta: [
-      { title: 'Buy Now — Phantom Secure' },
-      { name: "description", content: 'Order your Phantom Secure encrypted device today.' },
-      { property: "og:title", content: 'Buy Now — Phantom Secure' },
-      { property: "og:description", content: 'Order your Phantom Secure encrypted device today.' },
+      { title: "Buy Now — Phantom Secure" },
+      { name: "description", content: "Order your Phantom Secure encrypted device today." },
+      { property: "og:title", content: "Buy Now — Phantom Secure" },
+      { property: "og:description", content: "Order your Phantom Secure encrypted device today." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:url", content: "https://phantom-secure-xyz.lovable.app/buy" },

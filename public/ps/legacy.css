@@ -1,16 +1,21 @@
 /* original inline styles from phantomsecure.com (2017) */
 @font-face {
-  font-family: 'Muli';
-  src: url('/ps/font/a.ttf') format('truetype');
+  font-family: "Muli";
+  src: url("/ps/font/a.ttf") format("truetype");
   font-display: swap;
 }
 @font-face {
-  font-family: 'Lato';
-  src: url('/ps/font/c.ttf') format('truetype');
+  font-family: "Lato";
+  src: url("/ps/font/c.ttf") format("truetype");
   font-display: swap;
 }
 
-#ps-legacy { font-family: 'Muli', sans-serif; font-size: 1.5vw; overflow-x: hidden; background:#fff; }
+#ps-legacy {
+  font-family: "Muli", sans-serif;
+  font-size: 1.5vw;
+  overflow-x: hidden;
+  background: #fff;
+}
 
 /* Undo the modern CSS reset inside the archived markup: the 2017 page was
    authored against browser defaults (inline images, spaced tables, native
@@ -18,12 +23,37 @@
 #ps-legacy img,
 #ps-legacy video,
 #ps-legacy iframe,
-#ps-legacy svg { display: inline; vertical-align: baseline; }
-#ps-legacy img[align="center"] { display: inline-block; }
-#ps-legacy table { border-collapse: separate; border-spacing: 0; }
-#ps-legacy ul, #ps-legacy ol { margin: revert; padding: revert; list-style: revert; }
-#ps-legacy p, #ps-legacy h1, #ps-legacy h2, #ps-legacy h3, #ps-legacy h4, #ps-legacy h5 { margin: revert; font-size: revert; font-weight: revert; }
-#ps-legacy input, #ps-legacy textarea, #ps-legacy select, #ps-legacy button {
+#ps-legacy svg {
+  display: inline;
+  vertical-align: baseline;
+}
+#ps-legacy img[align="center"] {
+  display: inline-block;
+}
+#ps-legacy table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+#ps-legacy ul,
+#ps-legacy ol {
+  margin: revert;
+  padding: revert;
+  list-style: revert;
+}
+#ps-legacy p,
+#ps-legacy h1,
+#ps-legacy h2,
+#ps-legacy h3,
+#ps-legacy h4,
+#ps-legacy h5 {
+  margin: revert;
+  font-size: revert;
+  font-weight: revert;
+}
+#ps-legacy input,
+#ps-legacy textarea,
+#ps-legacy select,
+#ps-legacy button {
   font: revert;
   color: revert;
   background: revert;
@@ -32,23 +62,54 @@
   border-radius: revert;
   opacity: 1;
 }
-#ps-legacy a { text-decoration: none; color: white; }
+#ps-legacy a {
+  text-decoration: none;
+  color: white;
+}
 /* Google's Lato/Muli metrics are slightly wider than the 2017 webfonts, which
    made the home hero headline wrap onto four lines and collide with the
    "Watch video" button. */
-#ps-legacy .main .titleb2 { font-size: 2.6vw; }
+#ps-legacy .main .titleb2 {
+  font-size: 2.6vw;
+}
 
 /* Legal compliance tab panels: keep long policy text scrollable inside the
    fixed-height panel instead of clipping it. */
-#ps-legacy #l1, #ps-legacy #l2 { overflow-y: auto; }
-#ps-legacy td { line-height: 200%; font-size: 1vw; color: #898989; }
-#ps-legacy td a { line-height: 200%; font-size: 1vw; color: #898989; }
-#ps-legacy td a:hover { text-decoration: underline; }
-#ps-legacy img { max-width: 100%; }
-#ps-legacy .mmenu li { list-style-type: none; }
-#ps-legacy .mmenu { background: #0e0d0d; padding-bottom: 6vw; }
-#ps-legacy .mmenu a { font-size: 4vw; line-height: 2.2; }
-#ps-legacy .mmenu .mmh b { color: #6dcff6; font-size: 4vw; }
+#ps-legacy #l1,
+#ps-legacy #l2 {
+  overflow-y: auto;
+}
+#ps-legacy td {
+  line-height: 200%;
+  font-size: 1vw;
+  color: #898989;
+}
+#ps-legacy td a {
+  line-height: 200%;
+  font-size: 1vw;
+  color: #898989;
+}
+#ps-legacy td a:hover {
+  text-decoration: underline;
+}
+#ps-legacy img {
+  max-width: 100%;
+}
+#ps-legacy .mmenu li {
+  list-style-type: none;
+}
+#ps-legacy .mmenu {
+  background: #0e0d0d;
+  padding-bottom: 6vw;
+}
+#ps-legacy .mmenu a {
+  font-size: 4vw;
+  line-height: 2.2;
+}
+#ps-legacy .mmenu .mmh b {
+  color: #6dcff6;
+  font-size: 4vw;
+}
 
 /* Animations are intentionally disabled site-wide: content is always visible. */
 #ps-legacy [data-sb] {
@@ -90,4 +151,6 @@
   transform: rotate(45deg);
 }
 
-#ps-legacy .close::after { transform: rotate(-45deg); }
+#ps-legacy .close::after {
+  transform: rotate(-45deg);
+}

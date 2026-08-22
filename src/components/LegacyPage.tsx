@@ -24,9 +24,7 @@ function optimizeImages(html: string) {
   let index = 0;
   return html.replace(/<img\b(?![^>]*\bloading=)/gi, () => {
     index += 1;
-    return index <= 8
-      ? '<img decoding="async"'
-      : '<img loading="lazy" decoding="async"';
+    return index <= 8 ? '<img decoding="async"' : '<img loading="lazy" decoding="async"';
   });
 }
 
@@ -38,7 +36,10 @@ function optimizeImages(html: string) {
 function normalizeHtml(html: string) {
   return html.replace(/<[^>]+>/g, (tag) => {
     // Lowercase tag names.
-    tag = tag.replace(/^<(\/?)([a-zA-Z0-9-]+)/, (_, slash, name) => `<${slash}${name.toLowerCase()}`);
+    tag = tag.replace(
+      /^<(\/?)([a-zA-Z0-9-]+)/,
+      (_, slash, name) => `<${slash}${name.toLowerCase()}`,
+    );
     // Normalise every attribute to double-quoted and lowercase its name.
     return tag.replace(
       /(\s+)([a-zA-Z][a-zA-Z0-9-]*)(?:='([^']*)'|="([^"]*)"|=([^\s>"']+))?/g,
@@ -49,7 +50,7 @@ function normalizeHtml(html: string) {
         if (double !== undefined) return `${space}${lowerName}="${escapeQuotes(double)}"`;
         if (unquoted !== undefined) return `${space}${lowerName}="${escapeQuotes(unquoted)}"`;
         return `${space}${lowerName}`;
-      }
+      },
     );
   });
 }
@@ -58,7 +59,6 @@ export function LegacyPage({ html: rawHtml }: { html: string }) {
   const ref = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
   const html = useMemo(() => optimizeImages(normalizeHtml(rawHtml)), [rawHtml]);
-
 
   useEffect(() => {
     const root = ref.current;
@@ -71,7 +71,10 @@ export function LegacyPage({ html: rawHtml }: { html: string }) {
         const backdrop = tile.querySelector<HTMLImageElement>("img.tileimg");
         if (backdrop && getComputedStyle(backdrop).opacity === "0") {
           const content = Array.from(tile.children).filter((c) => c !== backdrop) as HTMLElement[];
-          const bottom = content.reduce((max, el) => Math.max(max, el.offsetTop + el.offsetHeight), 0);
+          const bottom = content.reduce(
+            (max, el) => Math.max(max, el.offsetTop + el.offsetHeight),
+            0,
+          );
           if (bottom) tile.style.height = `${bottom * 1.04}px`;
           return;
         }
@@ -158,7 +161,10 @@ export function LegacyPage({ html: rawHtml }: { html: string }) {
       const activate = (event: Event) => {
         event.preventDefault();
 
-        const selectors = Array.from(action.matchAll(/\$\(["']([^"']+)["']\)/g), (match) => match[1]);
+        const selectors = Array.from(
+          action.matchAll(/\$\(["']([^"']+)["']\)/g),
+          (match) => match[1],
+        );
         if (action.includes(".ans")) {
           root.querySelectorAll<HTMLElement>(".ans").forEach(hideElement);
         }
@@ -179,9 +185,9 @@ export function LegacyPage({ html: rawHtml }: { html: string }) {
         });
 
         const video = (element.closest("#player")?.querySelector("video") ??
-          root.querySelector<HTMLVideoElement>("#divVideo video, #player2 video, video#video")) as
-          | HTMLVideoElement
-          | null;
+          root.querySelector<HTMLVideoElement>(
+            "#divVideo video, #player2 video, video#video",
+          )) as HTMLVideoElement | null;
         if (action.includes("videojs") && video) {
           if (action.includes("pause")) video.pause();
           else {

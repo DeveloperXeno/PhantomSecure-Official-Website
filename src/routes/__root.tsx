@@ -86,7 +86,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Phantom Secure" },
       {
         property: "og:description",
-        content: "Educational archive replica of the Phantom Secure encrypted communications website.",
+        content:
+          "Educational archive replica of the Phantom Secure encrypted communications website.",
       },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Phantom Secure" },
@@ -95,9 +96,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Phantom Secure" },
-      { name: "twitter:description", content: "Educational archive replica of the Phantom Secure encrypted communications website." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/rCJnfPSucnN8ItPd2NPuLtFb5l02/social-images/social-1786864412443-social-image.webp" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/rCJnfPSucnN8ItPd2NPuLtFb5l02/social-images/social-1786864412443-social-image.webp" },
+      {
+        name: "twitter:description",
+        content:
+          "Educational archive replica of the Phantom Secure encrypted communications website.",
+      },
+      {
+        property: "og:image",
+        content:
+          "https://storage.googleapis.com/gpt-engineer-file-uploads/rCJnfPSucnN8ItPd2NPuLtFb5l02/social-images/social-1786864412443-social-image.webp",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://storage.googleapis.com/gpt-engineer-file-uploads/rCJnfPSucnN8ItPd2NPuLtFb5l02/social-images/social-1786864412443-social-image.webp",
+      },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
