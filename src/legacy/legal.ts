@@ -101,34 +101,99 @@ When designing our service we have taken both technological and environmental ri
 	<span style='color:6dcff6;  text-transform: uppercase;font-size: 3vw'>Terms and Conditions</span>
 	<br><br>
 <div style='height: 70%; overflow-y: auto; width: 95%; text-align:left; padding-right: 5%; font-size: 1.5vw'>
-Agreement To These Terms of Service
-<p>
-This Terms of Service is a legal contract between you and Phantom Secure, governing your use of our service that is owned, controlled or offered by Phantom Secure. THESE TERMS AND CONDITIONS CONTAIN LEGAL OBLIGATIONS SO PLEASE READ THEM CAREFULLY BEFORE USING PHANTOM SECURE™ SERVICES OFFERED. BY USING THE Phantom Secure SERVICES, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD AND AGREE TO BE BOUND BY THE TERMS OF THIS TERMS OF SERVICE. IF YOU DO NOT AGREE TO THIS TERMS OF SERVICE, PLEASE CEASE USING THE Phantom Secure SERVICES IMMEDIATELY. 
-<p>
-1. LICENSE GRANT<p>
-Phantom Secure Services are licensed to you and not sold. Subject to the terms of this agreement, Phantom Secure grants you a personal, non- exclusive, non-transferable and non-sublicensable license to use the Phantom Secure Services solely for your personal or business purposes.
-<p>
-2. RESERVATION OF RIGHTS<p>
-The Phantom Secure Services and all content, visual interfaces, information, graphics, design, compilation, computer code, products, software, trademarks, service marks, trade names and services are the property of Phantom Secure or its subsidiaries or affiliated companies and/or third- party licensors. Except for the express license granted to you, no right, title, interest or license to the Phantom Secure Services is granted to you, whether by implication, or otherwise.
-<p>
-3. USER DATA<p>
-You shall be solely responsible for your own User Data and the consequences of storing or transmitting them. Phantom Secure assumes no responsibility whatsoever in connection with or arising from User Data. Phantom Secure does not endorse and has no control over the content of User Data submitted by other Users. Phantom Secure reserves the right to prevent you from using User Data (use of service) and to restrict or remove User Data for any reason at any time.
-<p>
-4. MODIFICATION OF THIS AGREEMENT<p>
-Phantom Secure may modify this Terms of Service from time to time. Any and all changes to this Agreement will be posted on the Phantom Secure.com site, and you agree to be bound by any changes to the Terms of Service when you continue to use the Phantom Secure Services after those changes are posted.
-<p>
-5. USAGE RULES; PROHIBITED CONDUCT & USES<p>
-Phantom Secure was created to protect the privacy of business and people in this technology-advancing era.  We believe and support the Universal Declaration of Human Rights that everyone has the right to privacy. Although we do not store any information in regards to our members or clients identity and communications, nor  do we have the technical capability to monitor messages, we however reserve the right to suspend or terminate accounts if we learn they violate the following terms.
-<p>
-YOU MAY NOT USE THE PHANTOM SECURE SERVICES:<ul>
-<li>for illegal purposes or in furtherance of illegal activities;
-<li>for the purpose of spamming others.
-<li>to impersonate others in a manner that does or is intended to mislead, confuse, or deceive others;
+<p><b>1. Agreement to These Terms</b></p>
+<p>These Terms of Service (“Terms”) form a legal agreement between you (“the user”) and PhantomSecure (“we”, “our”, “us”).</p>
+<p>By accessing or using PhantomSecure devices, services, or our website, you acknowledge that you have read, understood, and agree to be bound by these Terms.</p>
+<p>If you do not agree, you must stop using PhantomSecure services immediately.</p>
+
+<p><b>2. License Grant</b></p>
+<p>PhantomSecure services and software are licensed, not sold.</p>
+<p>We grant you a personal, non‑exclusive, non‑transferable, non‑sublicensable license to use PhantomSecure devices and services solely for lawful personal or business communication.</p>
+<p>You may not copy, modify, reverse‑engineer, or redistribute PhantomSecure software or systems.</p>
+
+<p><b>3. Reservation of Rights</b></p>
+<p>All PhantomSecure content, software, designs, branding, and intellectual property remain the exclusive property of PhantomSecure and its licensors.</p>
+<p>Except for the limited license granted above, no rights or ownership are transferred to you.</p>
+
+<p><b>4. User Data</b></p>
+<p>PhantomSecure does not collect:</p>
+<ul>
+<li>messages</li>
+<li>contacts</li>
+<li>photos</li>
+<li>call logs</li>
+<li>location</li>
+<li>device activity</li>
+<li>PhantomEncrypted system data</li>
 </ul>
-<p>
-6. VIOLATIONS; TERMINATION<p>
-You agree that Phantom Secure may terminate or suspend your access to the Phantom Secure Services without prior notice and without liability if such termination or suspension is based on (a) Phantom Secure’s good faith belief you have violated any of the terms and conditions of this Agreement, (b) Phantom Secure’s determination that you repeatedly infringe or have infringed the copyrights of others. These remedies are in addition to any other remedies Phantom Secure may have at law or in equity. Phantom Secure reserves the right to terminate access to Phantom Secure Services at any time, with or without notice without any liability of any kind.<p>
-Phantom Secure reserves the right to terminate any that violate any laws of Canada. Phantom Secure may terminate or suspend its services at any time, and for any reason without any liability.
+<p>You are solely responsible for any information you choose to store or transmit using PhantomSecure devices.</p>
+<p>PhantomSecure may restrict or terminate service if user activity violates these Terms or applicable law.</p>
+
+<p><b>5. Verification Information</b></p>
+<p>PhantomSecure may collect minimal verification information solely to confirm eligibility to purchase devices or complete an order.</p>
+<p>This may include:</p>
+<ul>
+<li>email address</li>
+<li>identity documents (if required)</li>
+<li>order details</li>
+<li>support correspondence</li>
+</ul>
+<p>Verification data is not used for marketing, analytics, or tracking.</p>
+
+<p><b>6. Modifications to These Terms</b></p>
+<p>PhantomSecure may update these Terms at any time.</p>
+<p>Changes will be posted on our website.</p>
+<p>Continued use of PhantomSecure services after changes are posted constitutes acceptance of the updated Terms.</p>
+
+<p><b>7. Usage Rules; Prohibited Conduct</b></p>
+<p>PhantomSecure provides lawful, private communication for individuals and businesses.</p>
+<p>We support the principle that everyone has the right to privacy — but privacy must be exercised responsibly and legally.</p>
+<p>You may NOT use PhantomSecure services for:</p>
+<ul>
+<li>illegal activities or in furtherance of illegal acts</li>
+<li>harassment, threats, or abuse</li>
+<li>impersonation intended to mislead or deceive</li>
+<li>spamming or mass unsolicited communication</li>
+<li>bypassing lawful interception or interfering with network operations</li>
+</ul>
+<p>PhantomSecure does not monitor message content and does not store user identities, but we reserve the right to suspend or terminate accounts if unlawful use is detected.</p>
+
+<p><b>8. Violations & Termination</b></p>
+<p>PhantomSecure may suspend or terminate access to devices or services if:</p>
+<ul>
+<li>we believe you have violated these Terms</li>
+<li>your use violates applicable law in Australia or Canada</li>
+<li>your device is used for harmful or unlawful activity</li>
+<li>your verification information is fraudulent</li>
+</ul>
+<p>PhantomSecure may terminate services at any time, with or without notice, and without liability.</p>
+
+<p><b>9. No Criminal Use Disclaimer</b></p>
+<p>PhantomSecure devices are intended for lawful private communication only.</p>
+<p>We do not support, condone, or permit use of PhantomSecure devices for criminal activity.</p>
+<p>Any suspected unlawful use may result in immediate termination.</p>
+
+<p><b>10. Legal Compliance</b></p>
+<p>PhantomSecure operates lawfully in both Australia and Canada.</p>
+<p>We do not store message content, user identities, or communication metadata.</p>
+<p>We cannot decrypt user messages.</p>
+<p>Government agencies may request information through lawful processes such as valid warrants issued by authorities with jurisdiction over PhantomSecure.</p>
+<p>Because PhantomSecure does not store message content or identities, our response is limited to confirming that:</p>
+<ul>
+<li>PhantomSecure does not retain communication content</li>
+<li>PhantomSecure does not store user identities</li>
+<li>Encrypted data on devices cannot be decrypted by PhantomSecure</li>
+</ul>
+<p>PhantomSecure was founded to provide individuals and businesses with lawful private communication in a modern technological environment.</p>
+
+<p><b>11. Governing Law</b></p>
+<p>These Terms are governed by the laws of Australia.</p>
+<p>For Canadian users, relevant Canadian laws also apply.</p>
+
+<p><b>12. Contact Information</b></p>
+<p>For questions regarding these Terms:</p>
+<p>Email: support@phantomsecure.xyz<br>
+Website: https://www.phantomsecure.xyz</p>
 	</div>
 
 	</div>
