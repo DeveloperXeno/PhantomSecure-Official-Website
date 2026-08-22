@@ -54,7 +54,7 @@ Using the Most Trusted Encryption Standard and Protocols<br>
 Device to Device Encryption<br>
 Easy Verification Process<br>
 Create a Private Network<br>
-Leave No Trace<br>
+No Message Storage<br>
 No Backdoor and Storage of Messages<br>
 Plus many more Features...<br><br>
 <img src="/ps/chat_2.png" style='width: 30%'>
@@ -69,7 +69,7 @@ Plus many more Features...<br><br>
 	<div class=bottom style='width:100%; padding-left: 2%'>
 	<div class="titlelb">Using the Most Trusted Encryption Standard and Protocols</span></div>
 	<div class="textlb">
-	Prive uses the most trusted Elliptical Curve25519, AES-256, HMAC-SHA256 and the most advanced perfect secrecy design, the Double Ratchet Algorithm. 
+	Prive uses the most trusted Elliptical Curve25519, AES-256, HMAC-SHA256 and the most advanced forward secrecy design, the Double Ratchet Algorithm. 
 
 	</div>
 	</div>

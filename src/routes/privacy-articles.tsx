@@ -9,12 +9,12 @@ export const Route = createFileRoute("/privacy-articles")({
       { title: "Privacy Articles — Phantom Secure" },
       {
         name: "description",
-        content: "News and articles on digital privacy, surveillance and secure communications.",
+        content: "News and articles on digital privacy, encryption standards and secure communications.",
       },
       { property: "og:title", content: "Privacy Articles — Phantom Secure" },
       {
         property: "og:description",
-        content: "News and articles on digital privacy, surveillance and secure communications.",
+        content: "News and articles on digital privacy, encryption standards and secure communications.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
