@@ -90,7 +90,7 @@ Phantom Secure respects the privacy of all Business and Clients that use our ser
 <li>You can request for a wipe of your device at any time. You can also perform wipes manually. All information on the device will be gone forever. Your account ID can never be created again to prevent any identity theft or impersonation.  Your device will return to factory settings.
 </ul>
 
-When designing our service we have taken both technological and environmental threats that pose a risk to our client’s privacy and communications.  With our locked down devices, strict privacy policies, and our commitment to privacy, we have earned the reputation of a Trusted and Proven service that is “Uncrackable”. We have taken great measures in safeguarding business information and the transmission of data for over a decade. Providing an effective, easy and safe way to communicate. <p>
+When designing our service we have taken both technological and environmental risks to our client’s privacy and communications.  With our locked down devices, strict privacy policies, and our commitment to privacy, we have earned the reputation of a Trusted and Proven service built on established encryption standards. We have taken great measures in safeguarding business information and the transmission of data for over a decade. Providing an effective, easy and safe way to communicate. <p>
 
 
 	</div>

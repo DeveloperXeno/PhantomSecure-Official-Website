@@ -113,7 +113,7 @@ Around the clock protection.<br><br>&nbsp;
 
 </span></div>
 	<div class="textlb">
-Tested and proven military grade encryption.<br>
+Tested and proven, trusted encryption standards.<br>
 Utilizes combination of 4096 bit keys and AES 256.
 
 

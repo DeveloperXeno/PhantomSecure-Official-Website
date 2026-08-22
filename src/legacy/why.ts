@@ -44,7 +44,7 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 	<div class="textlb" style='width:80%; align:center; text-align: center;'>
 	
 With all the great benefits and advancements that mobile technology has brought to the world,<br>
-it has become clear that these technologies are vulnerable to electronic surveillance and interception.
+it has become clear that these technologies are vulnerable to data breaches and unauthorized access.
 <p>
 	</div>
 </div>

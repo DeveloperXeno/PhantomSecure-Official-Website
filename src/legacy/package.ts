@@ -72,7 +72,7 @@ Light weight and easy to use end to end encrypted messaging.
 <img src="/ps/pack_15.png" height=5%><p>
   ]  Modified and Locked Down Device<br>
   ]  Secure Encrypted Device to Device Encrypted Messaging<br>
-  ]  Anonymous Communication<br>
+  ]  Private Communication<br>
   ]  International Roaming 
 
 

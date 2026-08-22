@@ -85,7 +85,7 @@ Communication Service<span style='color:#6dcff6'>.</span></div>
 	<div class=center>
 	<div class="titleb" align=center>Why Privacy?</div>
 	<div class="textb" align=center>With all the great benefits and advancements that mobile technology has brought to the world,<br>
-it has become clear that these technologies are vulnerable to electronic surveillance and interception.</div>
+it has become clear that these technologies are vulnerable to data breaches and unauthorized access.</div>
 	<a href="/privacy-articles"><div class=btn>Learn more</div></a>
 	</div>
 </div>

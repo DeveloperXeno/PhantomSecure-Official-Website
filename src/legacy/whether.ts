@@ -67,7 +67,7 @@ for over 11 years Worldwide</span><span style='color: #6dcff6'>.</span>
 </span></div>
 	<div class="textl" align=center style='padding-left: 8%; padding-right:8%'>
 	Sending information using the traditional methods results in numerous security risks<br>
-where data can be recorded, stored and intercepted. Phantom Secure eliminates these threats<br>
+where data can be recorded or stored by third parties. Phantom Secure applies device-to-device encryption and stores no messages<br>
 by creating a secure and private communication environment for your personal and business matters.
 <br>&nbsp;<br><br><br>&nbsp;
 	
