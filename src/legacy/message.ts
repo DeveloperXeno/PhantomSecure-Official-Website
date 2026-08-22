@@ -172,7 +172,7 @@ Utilizes combination of 4096 bit keys and AES 256.
 </div>
 <div class="tile footer2">
 <div class=left>
-<img src="/ps/bottom_1.png">
+<img src="/__l5e/assets-v1/f3150a7e-ddeb-44b7-b30f-7779e4189fe8/phantom-secure-logo.png">
 </div>
 <div class=right>
 <!--<img src="/ps/bottom_2.png">-->
