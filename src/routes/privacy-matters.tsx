@@ -6,10 +6,18 @@ import { html } from "@/legacy/whether";
 export const Route = createFileRoute("/privacy-matters")({
   head: () => ({
     meta: [
-      { title: 'Privacy Matters — Phantom Secure' },
-      { name: "description", content: 'Why private communication matters and how Phantom Secure keeps your business information confidential.' },
-      { property: "og:title", content: 'Privacy Matters — Phantom Secure' },
-      { property: "og:description", content: 'Why private communication matters and how Phantom Secure keeps your business information confidential.' },
+      { title: "Privacy Matters — Phantom Secure" },
+      {
+        name: "description",
+        content:
+          "Why private communication matters and how Phantom Secure keeps your business information confidential.",
+      },
+      { property: "og:title", content: "Privacy Matters — Phantom Secure" },
+      {
+        property: "og:description",
+        content:
+          "Why private communication matters and how Phantom Secure keeps your business information confidential.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:url", content: "https://phantom-secure-xyz.lovable.app/privacy-matters" },
