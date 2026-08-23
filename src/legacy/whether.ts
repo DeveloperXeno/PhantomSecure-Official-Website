@@ -62,13 +62,13 @@ No matter how large or small your company is, you need to ensure the security of
 	<img src="/ps/whether_4.png" class=tileimg>
 	<div class=center style='top: 65%'>
 	<div class="titlel" align=center><span style='color: #f5989d;'>
-	Trusted, Proven and Used by Professionals<br>
-for over 11 years Worldwide</span><span style='color: #6dcff6'>.</span>
+	Privacy-Focused Communication<br>
+for Professionals Worldwide</span><span style='color: #6dcff6'>.</span>
 </span></div>
 	<div class="textl" align=center style='padding-left: 8%; padding-right:8%'>
-	Sending information using the traditional methods results in numerous security risks<br>
-where data can be recorded or stored by third parties. Phantom Secure applies device-to-device encryption and stores no messages<br>
-by creating a secure and private communication environment for your personal and business matters.
+	Standard communication methods can expose information to avoidable security risks.<br>
+Phantom Secure applies device-to-device encryption and does not retain message content on its messaging infrastructure,<br>
+helping support lawful, private personal and business communication.
 <br>&nbsp;<br><br><br>&nbsp;
 	
 </div>
@@ -79,7 +79,7 @@ by creating a secure and private communication environment for your personal and
 	<img src="/ps/whether_5.png" class=tileimg>
 	<div class=center >
 	<div class="titlel" align=center><span style='color: #ffffff; text-transform: uppercase; text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.6);'>
-	The Worlds Most Trusted<br>
+	Secure, Lawful and Private<br>
 Communication Service</span><span style='color: #6dcff6'>.</span>
 </span></div>
 

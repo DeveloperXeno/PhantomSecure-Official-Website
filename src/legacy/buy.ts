@@ -41,7 +41,7 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 
 	<div class="ps-order-head">
 		<div class="titlelb"><span style='color:#cbb559'>Contact Sales</span></div>
-		<p class="ps-order-lead">Please fill out the form below and your order will be directed to our sales team or local distributor. All information is confidential and will be destroyed when no longer needed. Payments are also not linked to devices. A Sales Representative will contact you.</p>
+		<p class="ps-order-lead">Please complete the form below and your request will be directed to our sales team or local distributor. Order and verification information is handled in accordance with our privacy practices, retention requirements, and applicable law. A sales representative will contact you.</p>
 	</div>
 
 <form method=POST class="ps-order-form">
@@ -98,7 +98,7 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 			<ul class="ps-trust">
 				<li><span class="ps-tick">&#10003;</span> Verified ID required</li>
 				<li><span class="ps-tick">&#10003;</span> Encrypted end to end</li>
-				<li><span class="ps-tick">&#10003;</span> No records stored</li>
+				<li><span class="ps-tick">&#10003;</span> No message content retained</li>
 				<li><span class="ps-tick">&#10003;</span> No subscription required</li>
 			</ul>
 		</section>
@@ -123,7 +123,7 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 
 		<section class="ps-card ps-card-verify">
 			<h3 class="ps-card-title">Identity Verification</h3>
-			<p class="ps-verify-note">Devices are only released to verified buyers. Your documents are reviewed by our sales team and destroyed once the order is completed.</p>
+			<p class="ps-verify-note">Devices are released only to verified buyers. Verification documents are reviewed by authorized personnel and retained or securely deleted in accordance with applicable legal and business requirements.</p>
 			<label class="ps-label" for="idtype">ID Type</label>
 			<select class="ps-field" id=idtype name=idtype>
 				<option value=passport>Passport</option>

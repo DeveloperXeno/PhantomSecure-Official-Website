@@ -10,13 +10,13 @@ export const Route = createFileRoute("/our-service")({
       {
         name: "description",
         content:
-          "Around the clock support, private offshore networks and hardened devices built for confidentiality.",
+          "Around-the-clock support, private communication networks and secured devices designed for lawful confidentiality.",
       },
       { property: "og:title", content: "Our Service — Phantom Secure" },
       {
         property: "og:description",
         content:
-          "Around the clock support, private offshore networks and hardened devices built for confidentiality.",
+          "Around-the-clock support, private communication networks and secured devices designed for lawful confidentiality.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

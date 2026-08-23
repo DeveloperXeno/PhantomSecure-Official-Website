@@ -48,16 +48,16 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 <p>
 <font color="#bd9f03">
 <img src="/ps/secure_1.png"><p>
-Your business and personal identity is kept private right from the start.
+Your personal and business information is handled in accordance with our privacy practices and applicable law.
 <p>
 <img src="/ps/secure_2.png"><p>
-Simply purchase on line or through one of our official distributors.
+Purchase online or through an authorized distributor, subject to buyer verification.
 <p>
 <img src="/ps/secure_3.png"><p>
-All purchase methods do not link you or your business to our service.
+Order records are handled securely and retained only as required for service, compliance, and applicable law.
 <p>
 <img src="/ps/secure_4.png"><p>
-You will receive a complete easy to follow set of instructions and can contact us anytime for a step-by-step tutorial.   
+You will receive setup instructions and may contact our support team for authorized onboarding assistance.   
 <p>
 <img src="/ps/secure_5.png"><p>
 Communicating safely could not be any easier.
