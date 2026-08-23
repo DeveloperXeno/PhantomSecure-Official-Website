@@ -41,7 +41,7 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 	<div class=center style='width:100%; top:35%'><center>
 	<div class="titleb" style="color: white; width:80%;letter-spacing: 0.09vw; text-transform: uppercase;  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.6);
 ">The Most Trusted Private Messaging Service<span style='color:#6dcff6'>.</span></div>
-	<div class=text>Confirmed by Cyber Experts and Government Agencies.</div>
+	<div class=text>Built for lawful business use with established encryption standards.</div>
 	</center>
 	</div>
 </div>
@@ -63,9 +63,9 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 <div class="tile"  data-sb="fadeInUp" data-sb-hide="fadeOutUp">
 	<img src="/ps/message_8.png" class=tileimg>
 	<div class=bottom>
-	<div class="titlel">Globally Trusted</span></div>
-	<div class="textl">It has been more than a decade that we have successfully protected businesses and executives around the globe. <br>
-With a spotless track record our reputation speaks for itself. Our top priority is keeping all business information confidential. No records exist on our networks. We are independently owned and operated. 
+	<div class="titlel">Privacy Focused</span></div>
+	<div class="textl">Our service is designed to help businesses and professionals protect confidential communications. <br>
+Message content is not retained on our messaging infrastructure, subject to our terms, operational requirements, and applicable law. We are independently owned and operated. 
 </div>
 	</div>
 </div>
@@ -80,10 +80,10 @@ With a spotless track record our reputation speaks for itself. Our top priority 
 	<div class="titlel">Complete Control over Communications</span></div>
 	<div class="textl">
 	Device to device encryption that takes place on the device before transmission.<br>
-Only intended recipient can receive and decrypt messages.<br>
-No messages are stored anywhere in our networks.<br>
-Deleted messages are gone forever.<br>
-No back doors.
+Messages are designed to be decrypted on the intended recipient's device.<br>
+Message content is not retained on our messaging infrastructure.<br>
+Deleted content is removed from the device in accordance with the product's documented controls.<br>
+The service is designed without intentional third-party access mechanisms.
 <br>&nbsp;<br><br><br>&nbsp;
 	
 </div>
@@ -96,10 +96,10 @@ No back doors.
 	<div class="titlel" style='text-align: right'>Private Encrypted Communication Channel
 </span></div>
 	<div class="textl" style='text-align: right'>
-Privately owned and operated encrypted networks.<br>
-Located in multiple offshore jurisdictions.<br>
-Latest in technology and security design.<br>
-Around the clock protection.<br><br>&nbsp;
+Privately operated encrypted communications infrastructure.<br>
+Services are operated in accordance with applicable laws and regulations.<br>
+Security controls are reviewed and maintained as technology evolves.<br>
+Around-the-clock technical support.<br><br>&nbsp;
 	
 </div>
 	</div>

@@ -48,7 +48,7 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
  <p>
 Over decade ago, we realized where mobile technology was headed and what was needed to utilize these advancements while still enabling businesses and executives to keep their information confidential and private.
  <p>
-With trust as being our foundation, we have dedicated our time over the years with one goal in mind - the successful protection and preservation of our universal human right to privacy. Today we have earned our global reputation as the most trusted communications service. This is something we have taken great pride in and the result is a service built on trusted, independently reviewed encryption standards.
+With trust as our foundation, we have focused on protecting privacy for lawful personal and business communications. Our service is built using established encryption standards and responsible operating practices.
  <p>
 Secure your business and personal communications today.
  <p>
@@ -67,9 +67,9 @@ Securing your privacy
 	<div class="titlel" align=center><span style='color: #bd9f03; text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.6);'>Securing Your Privacy</span><span style='color: #6dcff6'>.</span>
 </span></div>
 	<div class="textl" align=center style='padding-left: 8%; padding-right:8%'>
-	Recent discoveries have revealed how new technologies are being developed covertly, often to facilitate these practices [surveillance], with chilling efficiency. Such surveillance threatens individual rights - including privacy, freedom of expression and association - and inhibits the free functioning of a vibrant civil society.
+	Responsible privacy and information-security practices help individuals and organizations protect confidential data while complying with applicable laws, regulations, and lawful legal processes.
 	<p>
-United Nations High Commissioner for Human Rights
+Phantom Secure privacy principles
 
 <br>&nbsp;<br><br><br>&nbsp;
 	

@@ -55,7 +55,7 @@ Device to Device Encryption<br>
 Easy Verification Process<br>
 Create a Private Network<br>
 No Message Storage<br>
-No Backdoor and Storage of Messages<br>
+No intentional third-party access mechanism<br>
 Plus many more Features...<br><br>
 <img src="/ps/chat_2.png" style='width: 30%'>
 
@@ -69,7 +69,7 @@ Plus many more Features...<br><br>
 	<div class=bottom style='width:100%; padding-left: 2%'>
 	<div class="titlelb">Using the Most Trusted Encryption Standard and Protocols</span></div>
 	<div class="textlb">
-	Prive uses the most trusted Elliptical Curve25519, AES-256, HMAC-SHA256 and the most advanced forward secrecy design, the Double Ratchet Algorithm. 
+	Prive uses established cryptographic technologies including Curve25519, AES-256, HMAC-SHA256 and the Double Ratchet Algorithm for forward secrecy. 
 
 	</div>
 	</div>
@@ -84,8 +84,8 @@ Plus many more Features...<br><br>
 </span></div>
 	<div class="textlb" style='text-align:right'>
 Encryption takes place on the device before sending.<br>
-Messages get delivered only to the intended recipient.<br>
-Encryptions keys are generated and can only be found on the device.
+Messages are designed for delivery to verified intended recipients.<br>
+Encryption keys are generated and managed on participating devices.
 	</div>
 	</div>
 </div>
@@ -103,7 +103,7 @@ Encryptions keys are generated and can only be found on the device.
     <img src="/ps/chat_20.png" class=tileimg>
     <div class=center style='width:100%; top: 45%'>
         <div class="titlel" style='font-size: 4.1vw; text-align: left'>Create a Private Network</div>
-        <div class="textl" style='text-align: left'><span style='ffffff'>Prive provides clients the ability to create their own private communication network with specific users,<br>through the use of accepting and blocking contacts.</span><br><br>ACCEPTING NEW CONTACTS<br>This allows you to remove yourself from being contacted, creating a more private experience between trusted associates.<br>Once your network of associates have been trusted and added, you can have your account removed from our private listing.<br>Simply people will not know if you exist if turned off.<br><br>BLOCK CONTACTS<br>This allows you to block communication from any specific person.</div>
+        <div class="textl" style='text-align: left'><span style='ffffff'>Prive lets clients create private communication groups with specific, verified users<br>by accepting or blocking contacts.</span><br><br>ACCEPTING NEW CONTACTS<br>You control who may contact you, creating a more private experience among trusted colleagues.<br>After approved contacts are added, you may remove your account from the optional directory so it is not discoverable there.<br><br>BLOCK CONTACTS<br>This allows you to block communication from any specific person.</div>
     </div></center>
 </div>
 

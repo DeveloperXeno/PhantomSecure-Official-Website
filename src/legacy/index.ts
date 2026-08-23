@@ -44,8 +44,8 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 
 	<div class=center style='width:100%; top:55%'><center>
 	<div class="titleb2" style="text-align-last: justify;text-align:justify; color: white; width:60%;letter-spacing: 0.09vw; text-transform: uppercase;  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.6);
-">The Worlds Most Trusted<br>
-Communication Service<span style='color:#6dcff6'>.</span></div>
+">Secure Communications for<br>
+Lawful Personal and Business Use<span style='color:#6dcff6'>.</span></div>
 	</center>
 	</div>
 </div>
@@ -76,7 +76,7 @@ Communication Service<span style='color:#6dcff6'>.</span></div>
 	</div>
 <div class=center>
 	<div class="title" align=center>Secure Your Privacy Today</div>
-	<div class="text" align=center>Packages for all sizes of businesses are available along with all the support to get you started.</div>
+	<div class="text" align=center>Lawful-use packages for businesses of all sizes are available with onboarding and technical support.</div>
 </div>
 </div>
 
@@ -96,8 +96,8 @@ it has become clear that these technologies are vulnerable to data breaches and 
 	<div class="title" align=center><span style='color:#6dcff6'>Whether Personal or Business<br>
 All communication should be private. 
 </span></div>
-	<div class="text" align=center>Critical and important information is shared everyday by people and businesses. <br>
-By ensuring everything is secure keeps all private information private.</div>
+	<div class="text" align=center>People and businesses share sensitive information every day. <br>
+Appropriate security controls help protect confidential information and support responsible data handling.</div>
 	<a href="/privacy-matters"><div class=btn>Learn more</div></a>
 </div>
 </div>

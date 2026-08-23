@@ -43,8 +43,8 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 	<div class=center style='width:100%; top:6%; transform: translateY(0); padding: 0 10%;'><center>
 	<div class="titleb" style="color: #362f2d; width:100%; letter-spacing: 0.06vw; line-height: 1.2; margin-bottom: 1.5vw; font-size: 4.5vw;">Phantom Secure Packages</div>
 	<div class=textb style="width: 90%; margin: 0 auto; color: #4a4a4a; font-size: 2.4vw; line-height: 1.5;">
-	Simple, effective and easy to use while highly secure, Phantom Secure Encrypted Devices<br>
-has been reviewed by security professionals and built on trusted encryption standards.
+	Simple and effective to use, Phantom Secure encrypted devices<br>
+are designed for lawful private communication using established encryption standards.
 	</div>
 	<img src="/ps/pack_16.png" style="width: 40%; margin-top: 2vw;" alt="Phantom Secure BlackBerry device">
 	</center>
@@ -66,8 +66,8 @@ has been reviewed by security professionals and built on trusted encryption stan
 	<div class=center style='width:100%; padding-left: 0%; color: #998675; top:46%'>
 	<div class="titlelb" >Phantom Secure Classic BlackBerry Edition</span></div>
 	<div class="textlb" style='color:#998675'>
-	Our Classic Phantom Secure Encrypted BlackBerry Device that has been proven year after year effective. <br>
-Light weight and easy to use end to end encrypted messaging. 
+	Our Classic Phantom Secure Encrypted BlackBerry device is designed for lawful personal and business communication. <br>
+Lightweight and easy-to-use end-to-end encrypted messaging. 
 <p>
 <img src="/ps/pack_15.png" height=5%><p>
   ]  Modified and Locked Down Device<br>
