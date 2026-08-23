@@ -47,15 +47,15 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 <p>
 PhantomSecure is a legitimate, private communication service. Our secure devices are created to increase the privacy of individuals and organizations through the use of end-to-end device-to-device encrypted communications without collection of user data, monitoring, or backdoors.
 <p>
-PhantomSecure has no capacity to decrypt users' communications or retrieve the contents and logs of any user messages. We do not retain individual user information and all encrypted user communications will never be anything other than private on the users own device.
+PhantomSecure is designed not to decrypt users' message content or retain message histories on its messaging infrastructure. Limited account, verification, order, and support information may be processed in accordance with our terms, privacy practices, and applicable law.
 <p>
-We believe private communications is a basic human right. However devices produced by PhantomSecure must be legally operated and used. We do not condone or permit unlawful use of our products and if it transpires PhantomSecure devices are being used illegally PhantomSecure reserves the right to restrict or revoke access to devices and their services without prior notification.
+We believe privacy is important, and PhantomSecure devices and services must always be used lawfully. We do not permit unlawful use and may restrict or revoke access when we reasonably believe our terms or applicable law have been violated.
 <p>
-A request can be legally made by Government bodies through means that include but are not restricted to a warrant based upon the jurisdiction under which PhantomSecure has legal responsibility. The very nature of PhantomSecure's inability to store communications content, individual identities, and the transmission logs for each user communication restricts PhantomSecure's responses to such requests solely to a statement that:
+A government authority may request available information through valid legal process in a jurisdiction applicable to PhantomSecure. We review and respond to lawful requests in accordance with applicable law. Because our messaging infrastructure is designed not to retain message content, the information available may be limited.
 <p>
 PhantomSecure does not retain the content of communications.<br>
-PhantomSecure does not retain user identities.<br>
-The contents of encoded and on-device encrypted communications can't be unencrypted by PhantomSecure.
+PhantomSecure may retain limited account or transaction information where required for service delivery or legal compliance.<br>
+On-device encrypted message content is not designed to be decryptable by PhantomSecure.
 <p>
 PhantomSecure was founded to assist both individuals and companies in keeping private communications private while in use by those who have legitimate uses for doing so. While some people do exploit privacy technology that is for illegal purposes, it doesn't take away from the real need for private lawful communication.
 
@@ -78,19 +78,19 @@ PhantomSecure was founded to assist both individuals and companies in keeping pr
 <div style='height: 70%; overflow-y: auto; width: 95%; text-align:left; padding-right: 5%; font-size: 1.5vw'>
 Phantom Secure respects the privacy of all Business and Clients that use our service.  In general these are the policy and practices we adhere by: 
 <ul>
-<li>Your personal information is not needed to create a business or personal account
-<li>Your payment is not linked to the actual device or service you will be using. 
-<li>There is no information stored related to your identity on our networks.
-<li>There are no messages or data stored anywhere on our networks. Simply there is no information to provide anyone including ourselves. The only data that exists is on the devices.
-<li>Data that is sent and received to you belongs to you. We have no access to the data you own.  All data stored on the device is encrypted.
+<li>We collect only the information reasonably required for account administration, buyer verification, orders, support, and legal compliance.
+<li>Payment and transaction records are handled securely and retained as required by applicable financial and recordkeeping laws.
+<li>Personal information is processed according to our privacy practices and applicable law.
+<li>Message content is not retained on our messaging infrastructure; limited service and transaction records may be retained where operationally or legally required.
+<li>You remain responsible for information stored or transmitted through your device. Supported device data is protected using encryption controls.
 <li>All GPS functions of the device have been disabled. 
-<li>We require and encourage long and random passwords to prevent any type of brute force attack on the device and passphrases used to protect and decrypt information. These passwords and passphrases are not stored on our network or by default in any form on your device.
+<li>We require strong passwords and encourage secure passphrase practices to reduce unauthorized access. Credential handling follows the product's documented security controls.
 <li>Always trust whom you are communicating with. There is nothing in this world that can protect you from a person who decides to use the information you provided for his or her own benefit.
-<li>We do not share any user information we have with third parties. Simply we have nothing to share as no information is collected or stored related to businesses and clients
-<li>You can request for a wipe of your device at any time. You can also perform wipes manually. All information on the device will be gone forever. Your account ID can never be created again to prevent any identity theft or impersonation.  Your device will return to factory settings.
+<li>We do not sell personal information. Information may be disclosed to authorized service providers or authorities when permitted or required by law.
+<li>An authorized account holder may request a device reset or perform one manually. Reset actions are subject to identity verification, documented procedures, and applicable law.
 </ul>
 
-When designing our service we have taken both technological and environmental risks to our client’s privacy and communications.  With our locked down devices, strict privacy policies, and our commitment to privacy, we have earned the reputation of a Trusted and Proven service built on established encryption standards. We have taken great measures in safeguarding business information and the transmission of data for over a decade. Providing an effective, easy and safe way to communicate. <p>
+Our service is designed to address common technological and operational risks to client privacy. Restricted devices, privacy practices, and established encryption standards help safeguard lawful business and personal communications. <p>
 
 
 	</div>
@@ -175,14 +175,14 @@ When designing our service we have taken both technological and environmental ri
 
 <p><b>10. Legal Compliance</b></p>
 <p>PhantomSecure operates lawfully in both Australia and Canada.</p>
-<p>We do not store message content, user identities, or communication metadata.</p>
-<p>We cannot decrypt user messages.</p>
+<p>Our messaging infrastructure is designed not to retain message content. Limited account, transaction, support, or technical information may be processed where required to operate the service or comply with law.</p>
+<p>PhantomSecure is not designed to decrypt on-device encrypted message content.</p>
 <p>Government agencies may request information through lawful processes such as valid warrants issued by authorities with jurisdiction over PhantomSecure.</p>
-<p>Because PhantomSecure does not store message content or identities, our response is limited to confirming that:</p>
+<p>We review and respond to lawful requests based on the information available to us. Our service is designed so that:</p>
 <ul>
 <li>PhantomSecure does not retain communication content</li>
-<li>PhantomSecure does not store user identities</li>
-<li>Encrypted data on devices cannot be decrypted by PhantomSecure</li>
+<li>limited account or transaction information is retained only where needed for service or legal compliance</li>
+<li>on-device encrypted message content is not designed to be decryptable by PhantomSecure</li>
 </ul>
 <p>PhantomSecure was founded to provide individuals and businesses with lawful private communication in a modern technological environment.</p>
 
