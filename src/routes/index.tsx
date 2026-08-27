@@ -6,20 +6,20 @@ import { html } from "@/legacy/index";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Phantom Secure — The World’s Most Trusted Communication Service" },
+      { title: "Phantom Secure — Lawful Private Communication" },
       {
         name: "description",
         content:
-          "Encrypted BlackBerry devices with trusted PGP encryption, private chat and worldwide support.",
+          "Encrypted devices for lawful private communication, built with established encryption standards and worldwide support.",
       },
       {
         property: "og:title",
-        content: "Phantom Secure — The World’s Most Trusted Communication Service",
+        content: "Phantom Secure — Lawful Private Communication",
       },
       {
         property: "og:description",
         content:
-          "Encrypted BlackBerry devices with trusted PGP encryption, private chat and worldwide support.",
+          "Encrypted devices for lawful private communication, built with established encryption standards and worldwide support.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://phantom-secure-xyz.lovable.app/" },

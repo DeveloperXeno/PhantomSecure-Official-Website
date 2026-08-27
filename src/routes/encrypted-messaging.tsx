@@ -10,13 +10,13 @@ export const Route = createFileRoute("/encrypted-messaging")({
       {
         name: "description",
         content:
-          "Private messaging built on trusted encryption standards: 4096-bit keys, AES 256 and no records on our networks.",
+          "Lawful private messaging built on established encryption standards, with message content not retained on our messaging infrastructure.",
       },
       { property: "og:title", content: "Encrypted Messaging — Phantom Secure" },
       {
         property: "og:description",
         content:
-          "Private messaging built on trusted encryption standards: 4096-bit keys, AES 256 and no records on our networks.",
+          "Lawful private messaging built on established encryption standards, with message content not retained on our messaging infrastructure.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
