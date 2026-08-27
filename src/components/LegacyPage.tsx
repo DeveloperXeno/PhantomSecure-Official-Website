@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "@tanstack/react-router";
 
 function showElement(element: HTMLElement, display = "block") {
@@ -57,10 +57,17 @@ function normalizeHtml(html: string) {
 
 export function LegacyPage({ html: rawHtml }: { html: string }) {
   const ref = useRef<HTMLDivElement>(null);
+  const [isMounted, setIsMounted] = useState(false);
   const navigate = useNavigate();
   const html = useMemo(() => optimizeImages(normalizeHtml(rawHtml)), [rawHtml]);
 
   useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!isMounted) return;
+
     const root = ref.current;
     if (!root) return;
 
@@ -262,7 +269,13 @@ export function LegacyPage({ html: rawHtml }: { html: string }) {
       cleanups.forEach((cleanup) => cleanup());
       if (frame) window.cancelAnimationFrame(frame);
     };
-  }, [html, navigate]);
+  }, [html, isMounted, navigate]);
 
-  return <div id="ps-legacy" ref={ref} dangerouslySetInnerHTML={{ __html: html }} />;
+  return (
+    <div
+      id="ps-legacy"
+      ref={ref}
+      dangerouslySetInnerHTML={isMounted ? { __html: html } : undefined}
+    />
+  );
 }
