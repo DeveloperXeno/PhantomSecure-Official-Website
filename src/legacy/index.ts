@@ -43,9 +43,9 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 	<img src="/ps/btn_videoHome.png" style='width: 50%'></center></a></div>
 
 	<div class=center style='width:100%; top:55%'><center>
-	<div class="titleb2" style="text-align-last: justify;text-align:justify; color: white; width:60%;letter-spacing: 0.09vw; text-transform: uppercase;  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.6);
+	<h1 class="titleb2" style="margin:0; font-weight:inherit; text-align-last: justify;text-align:justify; color: white; width:60%;letter-spacing: 0.09vw; text-transform: uppercase;  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.6);
 ">THE WORLDS MOST TRUSTED<br>
-COMMUNICATION SERVICE<span style='color:#6dcff6'>.</span></div>
+COMMUNICATION SERVICE<span style='color:#6dcff6'>.</span></h1>
 	</center>
 	</div>
 </div>
