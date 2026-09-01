@@ -169,6 +169,7 @@ Encryption keys are generated and managed on participating devices.
 <img src="/__l5e/assets-v1/f3150a7e-ddeb-44b7-b30f-7779e4189fe8/phantom-secure-logo.png">
 </div>
 <div class=right>
+<span style='font-size: 0.9vw; letter-spacing: 2px; opacity: 0.85;'>BUILT BY THE PHANTOMTEAM</span>
 <!--<img src="/ps/bottom_2.png">-->
 </div>
 </div>`;
