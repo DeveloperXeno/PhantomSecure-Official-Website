@@ -44,8 +44,8 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 
 	<div class=center style='width:100%; top:55%'><center>
 	<div class="titleb2" style="text-align-last: justify;text-align:justify; color: white; width:60%;letter-spacing: 0.09vw; text-transform: uppercase;  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.6);
-">Secure Communications for<br>
-Lawful Personal and Business Use<span style='color:#6dcff6'>.</span></div>
+">THE WORLDS MOST TRUSTED<br>
+COMMUNICATION SERVICE<span style='color:#6dcff6'>.</span></div>
 	</center>
 	</div>
 </div>
