@@ -22,10 +22,10 @@ export const Route = createFileRoute("/")({
           "Encrypted devices for lawful private communication, built with established encryption standards and worldwide support.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://phantom-secure-xyz.lovable.app/" },
+      { property: "og:url", content: "https://phantomsecure.xyz/" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [{ rel: "canonical", href: "https://phantom-secure-xyz.lovable.app/" }],
+    links: [{ rel: "canonical", href: "https://phantomsecure.xyz/" }],
     scripts: [
       {
         type: "application/ld+json",
@@ -33,13 +33,13 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: "Phantom Secure",
-          url: "https://phantom-secure-xyz.lovable.app/",
+          url: "https://phantomsecure.xyz/",
           description:
             "Archived replica of the Phantom Secure encrypted communications website, reproduced for education purposes.",
           publisher: {
             "@type": "Organization",
             name: "Phantom Secure (archive)",
-            url: "https://phantom-secure-xyz.lovable.app/",
+            url: "https://phantomsecure.xyz/",
           },
         }),
       },

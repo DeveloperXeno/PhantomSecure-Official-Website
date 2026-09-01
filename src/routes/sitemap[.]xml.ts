@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 
-const BASE_URL = "https://phantom-secure-xyz.lovable.app";
+const BASE_URL = "https://phantomsecure.xyz";
 
 interface SitemapEntry {
   path: string;

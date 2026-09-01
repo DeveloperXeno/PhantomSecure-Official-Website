@@ -20,11 +20,11 @@ export const Route = createFileRoute("/about")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://phantom-secure-xyz.lovable.app/about" },
+      { property: "og:url", content: "https://phantomsecure.xyz/about" },
       { property: "og:site_name", content: "Phantom Secure" },
       { name: "robots", content: "index, follow" },
     ],
-    links: [{ rel: "canonical", href: "https://phantom-secure-xyz.lovable.app/about" }],
+    links: [{ rel: "canonical", href: "https://phantomsecure.xyz/about" }],
   }),
   component: Page,
 });

@@ -20,11 +20,11 @@ export const Route = createFileRoute("/encrypted-chat")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://phantom-secure-xyz.lovable.app/encrypted-chat" },
+      { property: "og:url", content: "https://phantomsecure.xyz/encrypted-chat" },
       { property: "og:site_name", content: "Phantom Secure" },
       { name: "robots", content: "index, follow" },
     ],
-    links: [{ rel: "canonical", href: "https://phantom-secure-xyz.lovable.app/encrypted-chat" }],
+    links: [{ rel: "canonical", href: "https://phantomsecure.xyz/encrypted-chat" }],
   }),
   component: Page,
 });

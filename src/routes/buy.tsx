@@ -12,11 +12,11 @@ export const Route = createFileRoute("/buy")({
       { property: "og:description", content: "Order your Phantom Secure encrypted device today." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://phantom-secure-xyz.lovable.app/buy" },
+      { property: "og:url", content: "https://phantomsecure.xyz/buy" },
       { property: "og:site_name", content: "Phantom Secure" },
       { name: "robots", content: "index, follow" },
     ],
-    links: [{ rel: "canonical", href: "https://phantom-secure-xyz.lovable.app/buy" }],
+    links: [{ rel: "canonical", href: "https://phantomsecure.xyz/buy" }],
   }),
   component: Page,
 });

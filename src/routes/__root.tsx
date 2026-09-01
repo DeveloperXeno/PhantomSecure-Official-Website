@@ -140,7 +140,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@context": "https://schema.org",
           "@type": "Organization",
           name: "Phantom Secure (archive)",
-          url: "https://phantom-secure-xyz.lovable.app",
+          url: "https://phantomsecure.xyz",
           description:
             "Archived replica of the Phantom Secure encrypted communications website, reproduced for education purposes.",
         }),
