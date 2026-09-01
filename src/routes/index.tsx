@@ -6,24 +6,32 @@ import { html } from "@/legacy/index";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Phantom Secure — Lawful Private Communication" },
+      { title: "PhantomSecure | Encrypted BlackBerry Devices & Private Messaging" },
       {
         name: "description",
         content:
-          "Encrypted devices for lawful private communication, built with established encryption standards and worldwide support.",
+          "PhantomSecure (phantomsecure.xyz) supplies encrypted BlackBerry devices with device-to-device encryption, no message storage and private networks for lawful confidential communication.",
       },
       {
         property: "og:title",
-        content: "Phantom Secure — Lawful Private Communication",
+        content: "PhantomSecure | Encrypted BlackBerry Devices & Private Messaging",
       },
       {
         property: "og:description",
         content:
-          "Encrypted devices for lawful private communication, built with established encryption standards and worldwide support.",
+          "Encrypted BlackBerry devices with device-to-device encryption, no message storage and private networks for lawful confidential communication.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "PhantomSecure" },
       { property: "og:url", content: "https://phantomsecure.xyz/" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "PhantomSecure" },
+      {
+        name: "twitter:description",
+        content:
+          "Encrypted BlackBerry devices for lawful, confidential communication.",
+      },
+      { name: "robots", content: "index, follow, max-image-preview:large" },
     ],
     links: [{ rel: "canonical", href: "https://phantomsecure.xyz/" }],
     scripts: [
@@ -32,13 +40,14 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebSite",
-          name: "Phantom Secure",
+          name: "PhantomSecure",
+          alternateName: "Phantom Secure",
           url: "https://phantomsecure.xyz/",
           description:
-            "Archived replica of the Phantom Secure encrypted communications website, reproduced for education purposes.",
+            "PhantomSecure supplies encrypted BlackBerry devices and private messaging for lawful confidential communication.",
           publisher: {
             "@type": "Organization",
-            name: "Phantom Secure (archive)",
+            name: "PhantomSecure",
             url: "https://phantomsecure.xyz/",
           },
         }),
