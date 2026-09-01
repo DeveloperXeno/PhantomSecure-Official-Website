@@ -6,13 +6,13 @@ import { html } from "@/legacy/legal";
 export const Route = createFileRoute("/legal")({
   head: () => ({
     meta: [
-      { title: "Legal Compliance — Phantom Secure" },
+      { title: "Legal Compliance — PhantomSecure" },
       {
         name: "description",
         content:
           "Legal compliance, terms of use and acceptable use policies for Phantom Secure services.",
       },
-      { property: "og:title", content: "Legal Compliance — Phantom Secure" },
+      { property: "og:title", content: "Legal Compliance — PhantomSecure" },
       {
         property: "og:description",
         content:
@@ -20,11 +20,11 @@ export const Route = createFileRoute("/legal")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://phantom-secure-xyz.lovable.app/legal" },
-      { property: "og:site_name", content: "Phantom Secure" },
+      { property: "og:url", content: "https://phantomsecure.xyz/legal" },
+      { property: "og:site_name", content: "PhantomSecure" },
       { name: "robots", content: "index, follow" },
     ],
-    links: [{ rel: "canonical", href: "https://phantom-secure-xyz.lovable.app/legal" }],
+    links: [{ rel: "canonical", href: "https://phantomsecure.xyz/legal" }],
   }),
   component: Page,
 });

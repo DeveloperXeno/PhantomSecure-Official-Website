@@ -6,13 +6,13 @@ import { html } from "@/legacy/why";
 export const Route = createFileRoute("/privacy-articles")({
   head: () => ({
     meta: [
-      { title: "Privacy Articles — Phantom Secure" },
+      { title: "Privacy Articles — PhantomSecure" },
       {
         name: "description",
         content:
           "News and articles on digital privacy, encryption standards and secure communications.",
       },
-      { property: "og:title", content: "Privacy Articles — Phantom Secure" },
+      { property: "og:title", content: "Privacy Articles — PhantomSecure" },
       {
         property: "og:description",
         content:
@@ -20,11 +20,11 @@ export const Route = createFileRoute("/privacy-articles")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://phantom-secure-xyz.lovable.app/privacy-articles" },
-      { property: "og:site_name", content: "Phantom Secure" },
+      { property: "og:url", content: "https://phantomsecure.xyz/privacy-articles" },
+      { property: "og:site_name", content: "PhantomSecure" },
       { name: "robots", content: "index, follow" },
     ],
-    links: [{ rel: "canonical", href: "https://phantom-secure-xyz.lovable.app/privacy-articles" }],
+    links: [{ rel: "canonical", href: "https://phantomsecure.xyz/privacy-articles" }],
   }),
   component: Page,
 });

@@ -6,13 +6,13 @@ import { html } from "@/legacy/package";
 export const Route = createFileRoute("/packages")({
   head: () => ({
     meta: [
-      { title: "Packages & Pricing — Phantom Secure" },
+      { title: "Packages & Pricing — PhantomSecure" },
       {
         name: "description",
         content:
           "Encrypted device packages for individuals and businesses of every size, with full support included.",
       },
-      { property: "og:title", content: "Packages & Pricing — Phantom Secure" },
+      { property: "og:title", content: "Packages & Pricing — PhantomSecure" },
       {
         property: "og:description",
         content:
@@ -20,11 +20,11 @@ export const Route = createFileRoute("/packages")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://phantom-secure-xyz.lovable.app/packages" },
-      { property: "og:site_name", content: "Phantom Secure" },
+      { property: "og:url", content: "https://phantomsecure.xyz/packages" },
+      { property: "og:site_name", content: "PhantomSecure" },
       { name: "robots", content: "index, follow" },
     ],
-    links: [{ rel: "canonical", href: "https://phantom-secure-xyz.lovable.app/packages" }],
+    links: [{ rel: "canonical", href: "https://phantomsecure.xyz/packages" }],
   }),
   component: Page,
 });

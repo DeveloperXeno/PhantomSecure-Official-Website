@@ -6,23 +6,23 @@ import { html } from "@/legacy/secure";
 export const Route = createFileRoute("/start-today")({
   head: () => ({
     meta: [
-      { title: "Start Today — Phantom Secure" },
+      { title: "Start Today — PhantomSecure" },
       {
         name: "description",
         content: "Secure your privacy today with a Phantom Secure encrypted communication package.",
       },
-      { property: "og:title", content: "Start Today — Phantom Secure" },
+      { property: "og:title", content: "Start Today — PhantomSecure" },
       {
         property: "og:description",
         content: "Secure your privacy today with a Phantom Secure encrypted communication package.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://phantom-secure-xyz.lovable.app/start-today" },
-      { property: "og:site_name", content: "Phantom Secure" },
+      { property: "og:url", content: "https://phantomsecure.xyz/start-today" },
+      { property: "og:site_name", content: "PhantomSecure" },
       { name: "robots", content: "index, follow" },
     ],
-    links: [{ rel: "canonical", href: "https://phantom-secure-xyz.lovable.app/start-today" }],
+    links: [{ rel: "canonical", href: "https://phantomsecure.xyz/start-today" }],
   }),
   component: Page,
 });

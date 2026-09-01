@@ -272,10 +272,14 @@ export function LegacyPage({ html: rawHtml }: { html: string }) {
   }, [html, isMounted, navigate]);
 
   return (
+    // The markup is rendered on the server too so crawlers see the real page
+    // content; suppressHydrationWarning keeps the archived (imperfect) markup
+    // from tripping hydration on the client.
     <div
       id="ps-legacy"
       ref={ref}
-      dangerouslySetInnerHTML={isMounted ? { __html: html } : undefined}
+      suppressHydrationWarning
+      dangerouslySetInnerHTML={{ __html: html }}
     />
   );
 }
