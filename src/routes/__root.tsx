@@ -77,29 +77,28 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Phantom Secure" },
+      { title: "PhantomSecure — Encrypted Devices for Lawful Private Communication" },
       {
         name: "description",
         content:
-          "Educational archive replica of the Phantom Secure encrypted communications website: encrypted devices, PGP messaging and private chat.",
+          "PhantomSecure provides encrypted BlackBerry devices, device-to-device encrypted messaging and private chat for lawful, confidential business communication.",
       },
-      { property: "og:title", content: "Phantom Secure" },
+      { property: "og:title", content: "PhantomSecure" },
       {
         property: "og:description",
         content:
-          "Educational archive replica of the Phantom Secure encrypted communications website.",
+          "Encrypted devices and private messaging for lawful, confidential communication.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Phantom Secure" },
+      { property: "og:site_name", content: "PhantomSecure" },
       { property: "og:locale", content: "en_US" },
-      { name: "robots", content: "index, follow" },
+      { name: "robots", content: "index, follow, max-image-preview:large" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Phantom Secure" },
+      { name: "twitter:title", content: "PhantomSecure" },
       {
         name: "twitter:description",
         content:
-          "Educational archive replica of the Phantom Secure encrypted communications website.",
+          "Encrypted devices and private messaging for lawful, confidential communication.",
       },
       {
         property: "og:image",
