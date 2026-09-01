@@ -138,10 +138,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "Phantom Secure (archive)",
+          name: "PhantomSecure",
+          alternateName: ["Phantom Secure", "PhantomSecure.xyz"],
           url: "https://phantomsecure.xyz",
+          logo: "https://phantomsecure.xyz/favicon.png",
+          email: "support@phantomsecure.xyz",
           description:
-            "Archived replica of the Phantom Secure encrypted communications website, reproduced for education purposes.",
+            "PhantomSecure provides encrypted devices and private messaging for lawful, confidential communication.",
+          contactPoint: [
+            {
+              "@type": "ContactPoint",
+              contactType: "customer support",
+              email: "support@phantomsecure.xyz",
+              availableLanguage: "English",
+            },
+          ],
         }),
       },
     ],
