@@ -556,3 +556,24 @@ li.mmh {
     padding: 6vw 4vw !important;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  #ps-legacy h1,
+  #ps-legacy .titleb2,
+  #ps-legacy .title,
+  #ps-legacy .title2,
+  #ps-legacy .titleb,
+  #ps-legacy .titlel,
+  #ps-legacy .titlelb {
+    width: auto !important;
+    text-align: center !important;
+    text-align-last: center !important;
+    padding: 0 4vw !important;
+    letter-spacing: normal !important;
+  }
+  #ps-legacy .skrollable img,
+  #ps-legacy img[id^="main"] {
+    width: 72% !important;
+    margin: 4vw auto !important;
+  }
+}
