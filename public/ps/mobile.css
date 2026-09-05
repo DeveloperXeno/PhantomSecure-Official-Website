@@ -577,3 +577,31 @@ li.mmh {
     margin: 4vw auto !important;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  /* Small inline artwork (buttons, icons, table images) must not stretch. */
+  #ps-legacy td img,
+  #ps-legacy th img,
+  #ps-legacy .orderform img,
+  #ps-legacy .inputform img,
+  #ps-legacy .cartform img,
+  #ps-legacy img[width],
+  #ps-legacy img[height] {
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  #ps-legacy h1,
+  #ps-legacy .titleb2 {
+    font-size: 6.5vw !important;
+    line-height: 1.3 !important;
+  }
+  #ps-legacy .title,
+  #ps-legacy .title2,
+  #ps-legacy .titleb,
+  #ps-legacy .titlel,
+  #ps-legacy .titlelb {
+    font-size: 6vw !important;
+    line-height: 1.3 !important;
+  }
+}
