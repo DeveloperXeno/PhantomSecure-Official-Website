@@ -483,3 +483,76 @@ li.mmh {
     text-align-last: left !important;
   }
 }
+
+/* --- Final phone normalisation ---------------------------------------- */
+/* The archive positions nearly everything absolutely with vw-based heights.
+   On a phone we flatten the whole legacy tree into a single readable column;
+   the slide-out menu is the only element that must stay overlaid. */
+@media only screen and (max-width: 900px) {
+  #ps-legacy *:not(.mmenu):not(.mmenu *) {
+    position: static !important;
+    float: none !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  #ps-legacy div:not(.mmenu):not(.mmenu *),
+  #ps-legacy table,
+  #ps-legacy td,
+  #ps-legacy tr {
+    width: auto !important;
+    min-width: 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    background-size: cover !important;
+  }
+  #ps-legacy img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+  }
+  #ps-legacy .topbar,
+  #ps-legacy .topbar * {
+    position: static !important;
+  }
+  #ps-legacy .topbar {
+    height: 14vw !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+  #ps-legacy .mobile {
+    display: block !important;
+    height: auto !important;
+    border: 0 !important;
+    padding-left: 3vw;
+  }
+  #ps-legacy .mobile li {
+    list-style: none !important;
+  }
+  #ps-legacy .footer2 img,
+  #ps-legacy .btn img,
+  #ps-legacy a > img[width] {
+    width: auto !important;
+    max-width: 60% !important;
+  }
+  #ps-legacy .mmenu {
+    position: absolute !important;
+    top: 14vw !important;
+    width: 100vw !important;
+  }
+  #ps-legacy video {
+    width: 100% !important;
+    height: auto !important;
+  }
+  #ps-legacy .center,
+  #ps-legacy .bottom {
+    padding: 6vw 4vw !important;
+  }
+}
