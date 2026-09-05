@@ -163,7 +163,14 @@ export function LegacyPage({ html: rawHtml }: { html: string }) {
     });
 
     root.querySelectorAll<HTMLElement>("[onclick]").forEach((element) => {
+      // The burger already has a dedicated handler above; running both would
+      // toggle the menu twice and leave it closed.
+      if (element.closest(".mobile")) {
+        element.removeAttribute("onclick");
+        return;
+      }
       const action = element.getAttribute("onclick") ?? "";
+
       element.removeAttribute("onclick");
       const activate = (event: Event) => {
         event.preventDefault();
