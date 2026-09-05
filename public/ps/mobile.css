@@ -309,3 +309,112 @@ li.mmh {
 #ps-legacy #video {
   width: 100% !important;
 }
+
+/* --- Phone layout pass: let the archived absolute layout flow ---------- */
+@media only screen and (max-width: 900px) {
+  #ps-legacy div.tile,
+  #ps-legacy div.main {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible;
+  }
+  #ps-legacy div.tile > img.tileimg,
+  #ps-legacy img.tileimg {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+  #ps-legacy .center,
+  #ps-legacy .bottom {
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    width: 100% !important;
+    padding: 5vw 0;
+  }
+  #ps-legacy div[style*="absolute"]:not(.mmenu):not(.mmenu *),
+  #ps-legacy .left,
+  #ps-legacy .right,
+  #ps-legacy .skrollable {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #ps-legacy .skrollable img,
+  #ps-legacy .left img,
+  #ps-legacy .right img {
+    max-width: 70% !important;
+    height: auto !important;
+  }
+  #ps-legacy h1,
+  #ps-legacy .titleb2,
+  #ps-legacy .title,
+  #ps-legacy .title2 {
+    width: auto !important;
+    text-align: center !important;
+    text-align-last: center !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    letter-spacing: normal !important;
+  }
+  #ps-legacy table {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  #ps-legacy table td,
+  #ps-legacy table th {
+    display: block;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+  #ps-legacy .footer1 table td,
+  #ps-legacy .footer2 * {
+    text-align: center;
+  }
+  #ps-legacy .footer2 img {
+    max-width: 60% !important;
+    height: auto;
+  }
+  #ps-legacy .footer2 span {
+    font-size: 3vw !important;
+    display: block;
+    padding: 3vw 0;
+  }
+  #ps-legacy .mmenu {
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  #ps-legacy .mmenu li {
+    height: auto !important;
+    font-size: 4vw !important;
+    padding: 3vw !important;
+  }
+  #ps-legacy .mmenu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+  }
+  #ps-legacy .mmenu li.mmh {
+    font-size: 4.2vw !important;
+  }
+  #ps-legacy #video {
+    height: auto !important;
+  }
+  #ps-legacy .btn {
+    padding: 3vw 0;
+  }
+}
