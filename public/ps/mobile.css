@@ -418,3 +418,47 @@ li.mmh {
     padding: 3vw 0;
   }
 }
+
+/* Once tiles stack, artwork no longer sits behind the copy, so the page needs
+   a dark surface and light text to stay readable on a phone. */
+@media only screen and (max-width: 900px) {
+  html,
+  body,
+  #ps-legacy {
+    background: #0e0d0d !important;
+  }
+  #ps-legacy .titleb,
+  #ps-legacy .titleb2,
+  #ps-legacy .textb,
+  #ps-legacy .titlelb,
+  #ps-legacy .textlb,
+  #ps-legacy .cartform td,
+  #ps-legacy .orderform th,
+  #ps-legacy td,
+  #ps-legacy p,
+  #ps-legacy li,
+  #ps-legacy h1,
+  #ps-legacy h2,
+  #ps-legacy h3 {
+    color: #ececec !important;
+  }
+  #ps-legacy [style*="534741"],
+  #ps-legacy [style*="393939"],
+  #ps-legacy [style*="828282"],
+  #ps-legacy [style*="362f2d"],
+  #ps-legacy [style*="262626"],
+  #ps-legacy [style*="4a4a4a"],
+  #ps-legacy [style*="8c7d75"],
+  #ps-legacy [style*="998675"],
+  #ps-legacy [style*="a19080"],
+  #ps-legacy [style*="color:#000"],
+  #ps-legacy [style*="color: #000"] {
+    color: #ececec !important;
+  }
+  #ps-legacy a {
+    color: #6dcff6;
+  }
+  #ps-legacy .mmenu a {
+    color: #fff;
+  }
+}
