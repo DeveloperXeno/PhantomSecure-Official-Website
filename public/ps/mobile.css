@@ -462,3 +462,24 @@ li.mmh {
     color: #fff;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  #ps-legacy .mmenu li {
+    line-height: 1.2 !important;
+    height: auto !important;
+    padding: 3.5vw 4vw !important;
+  }
+  #ps-legacy .mmenu li br {
+    display: none;
+  }
+  #ps-legacy .text,
+  #ps-legacy .textl,
+  #ps-legacy .textb,
+  #ps-legacy .textlb,
+  #ps-legacy #ps-legacy p,
+  #ps-legacy div[align="justify"],
+  #ps-legacy [style*="justify"] {
+    text-align: left !important;
+    text-align-last: left !important;
+  }
+}
