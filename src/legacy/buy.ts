@@ -122,26 +122,30 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 		</section>
 
 		<section class="ps-card ps-card-verify">
-			<h3 class="ps-card-title">Identity Verification</h3>
-			<p class="ps-verify-note">Devices are released only to verified buyers. Verification documents are reviewed by authorized personnel and retained or securely deleted in accordance with applicable legal and business requirements.</p>
-			<label class="ps-label" for="idtype">ID Type</label>
-			<select class="ps-field" id=idtype name=idtype>
-				<option value=passport>Passport</option>
-				<option value=license>Driver&#39;s License</option>
-				<option value=national>National ID Card</option>
-			</select>
+			<h3 class="ps-card-title">Payment Details</h3>
+			<p class="ps-verify-note">Payment is processed securely. Card details are used only to complete this purchase and are not stored once the order is complete.</p>
+			<label class="ps-label" for="cardname">Name on Card</label>
+			<input class="ps-field" type=text id=cardname name=cardname autocomplete="cc-name">
 
-			<label class="ps-label" for="idnumber">ID Number</label>
-			<input class="ps-field" type=text id=idnumber name=idnumber>
+			<label class="ps-label" for="cardnumber">Card Number</label>
+			<input class="ps-field" type=text id=cardnumber name=cardnumber inputmode=numeric autocomplete="cc-number" placeholder="1234 5678 9012 3456" maxlength=19>
 
-			<label class="ps-label" for="idcountry">Country of Issue</label>
-			<input class="ps-field" type=text id=idcountry name=idcountry>
+			<div class="ps-inline">
+				<div style="flex:1">
+					<label class="ps-label" for="cardexp">Expiry (MM/YY)</label>
+					<input class="ps-field" type=text id=cardexp name=cardexp inputmode=numeric autocomplete="cc-exp" placeholder="MM/YY" maxlength=5>
+				</div>
+				<div style="flex:1">
+					<label class="ps-label" for="cardcvc">Security Code (CVC)</label>
+					<input class="ps-field" type=password id=cardcvc name=cardcvc inputmode=numeric autocomplete="cc-csc" placeholder="123" maxlength=4>
+				</div>
+			</div>
 
-			<label class="ps-label" for="iddoc">Upload ID Document</label>
-			<input class="ps-field ps-file" type=file id=iddoc name=iddoc accept="image/*,.pdf">
+			<label class="ps-label" for="billzip">Billing ZIP / Postal Code</label>
+			<input class="ps-field" type=text id=billzip name=billzip autocomplete="postal-code">
 
-			<label class="ps-check"><input type=checkbox name=idconsent value=1> I confirm the details above are accurate and consent to identity verification.</label>
-			<div class="ps-badge"><span class="ps-tick">&#10003;</span> Verified ID &nbsp;&middot;&nbsp; Encrypted upload &nbsp;&middot;&nbsp; Destroyed after review</div>
+			<label class="ps-check"><input type=checkbox name=payconsent value=1> I authorize PhantomSecure to charge this card for the items in my order.</label>
+			<div class="ps-badge"><span class="ps-tick">&#10003;</span> Secure checkout &nbsp;&middot;&nbsp; Encrypted payment &nbsp;&middot;&nbsp; No card details stored</div>
 		</section>
 	</div>
 
