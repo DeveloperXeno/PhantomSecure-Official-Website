@@ -41,7 +41,7 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 
 	<div class="ps-order-head">
 		<div class="titlelb"><span style='color:#cbb559'>Contact Sales</span></div>
-		<p class="ps-order-lead">Please complete the form below and your request will be directed to our sales team or local distributor. Order and verification information is handled in accordance with our privacy practices, retention requirements, and applicable law. A sales representative will contact you.</p>
+		<p class="ps-order-lead">Please complete the form below to place your order. Payment and order information is handled in accordance with our privacy practices, retention requirements, and applicable law. A sales representative will confirm your order.</p>
 	</div>
 
 <form method=POST class="ps-order-form">
