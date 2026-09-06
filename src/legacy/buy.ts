@@ -96,7 +96,7 @@ export const html = `<div class=mmenu style='display: none; position: absolute; 
 				<tr><td>PS Classic</td><td class="ps-qty" id=od1>0</td></tr>
 			</table>
 			<ul class="ps-trust">
-				<li><span class="ps-tick">&#10003;</span> Verified ID required</li>
+				<li><span class="ps-tick">&#10003;</span> Secure card payment</li>
 				<li><span class="ps-tick">&#10003;</span> Encrypted end to end</li>
 				<li><span class="ps-tick">&#10003;</span> No message content retained</li>
 				<li><span class="ps-tick">&#10003;</span> No subscription required</li>
