@@ -813,3 +813,328 @@ li.mmh {
     display: block !important;
   }
 }
+
+/* ===== Definitive mobile layout =======================================
+   Keep the original artwork, but stop the desktop collage from being
+   flattened into oversized, disconnected fragments on narrow screens. */
+@media only screen and (max-width: 900px) {
+  html,
+  body {
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  #ps-legacy {
+    --mobile-bg: #0b0b0c;
+    --mobile-panel: #17171b;
+    --mobile-text: #f1f1f2;
+    --mobile-muted: #bebec3;
+    --mobile-line: #34343a;
+    --mobile-accent: #6dcff6;
+    width: 100%;
+    background: var(--mobile-bg) !important;
+    color: var(--mobile-text) !important;
+    font-size: 16px !important;
+    line-height: 1.65 !important;
+  }
+
+  /* Compact, dependable navigation. */
+  #ps-legacy .topbar {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000 !important;
+    width: 100% !important;
+    height: 56px !important;
+    min-height: 56px !important;
+    padding: 0 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    background: var(--mobile-bg) !important;
+    border-bottom: 1px solid var(--mobile-line) !important;
+  }
+  #ps-legacy .mobile {
+    width: auto !important;
+    padding: 0 !important;
+  }
+  #ps-legacy .mobile a {
+    display: grid !important;
+    width: 44px !important;
+    height: 44px !important;
+    place-items: center !important;
+    color: var(--mobile-accent) !important;
+    font-size: 27px !important;
+    line-height: 1 !important;
+  }
+  #ps-legacy .mmenu {
+    position: fixed !important;
+    inset: 56px 0 auto 0 !important;
+    z-index: 999 !important;
+    width: 100% !important;
+    max-height: calc(100dvh - 56px) !important;
+    padding: 8px 0 20px !important;
+    overflow-y: auto !important;
+    background: #101012 !important;
+    box-shadow: 0 18px 35px rgb(0 0 0 / 45%);
+  }
+  #ps-legacy .mmenu li,
+  #ps-legacy .mmenu li.mmh {
+    min-height: 0 !important;
+    padding: 0 20px !important;
+    border: 0 !important;
+    background: transparent !important;
+  }
+  #ps-legacy .mmenu li.mmh {
+    padding-top: 16px !important;
+    color: var(--mobile-accent) !important;
+  }
+  #ps-legacy .mmenu li a,
+  #ps-legacy .mmenu li b {
+    display: block !important;
+    padding: 9px 0 !important;
+    font-size: 15px !important;
+    line-height: 1.25 !important;
+  }
+
+  /* Reset the negative offsets that created gaps and overlapping sections. */
+  #ps-legacy .tile,
+  #ps-legacy .main,
+  #ps-legacy [data-nomargin] {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background-color: var(--mobile-bg) !important;
+  }
+
+  #ps-legacy img {
+    display: block !important;
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-inline: auto !important;
+  }
+  #ps-legacy img.tileimg,
+  #ps-legacy img[width="100%"] {
+    width: 100% !important;
+  }
+
+  /* Hero artwork and heading stay together as one composed first screen. */
+  #ps-legacy .main:has(> img.tileimg) {
+    position: relative !important;
+    display: grid !important;
+    grid-template-areas: "hero" !important;
+  }
+  #ps-legacy .main:has(> img.tileimg) > img.tileimg,
+  #ps-legacy .main:has(> img.tileimg) > .center {
+    grid-area: hero !important;
+  }
+  #ps-legacy .main:has(> img.tileimg) > img.tileimg {
+    position: static !important;
+    min-height: 250px !important;
+    object-fit: cover !important;
+  }
+  #ps-legacy .main:has(> img.tileimg) > .center {
+    position: relative !important;
+    z-index: 2 !important;
+    align-self: center !important;
+    width: 100% !important;
+    padding: 28px 20px !important;
+    background: linear-gradient(180deg, transparent, rgb(0 0 0 / 74%)) !important;
+  }
+  #ps-legacy .main:has(> img[src*="main_bg"]) > .center {
+    align-self: end !important;
+    padding-bottom: 54px !important;
+  }
+  #ps-legacy .main #obtn {
+    position: absolute !important;
+    z-index: 3 !important;
+    inset: auto 0 0 !important;
+    width: 100% !important;
+  }
+  #ps-legacy .main #obtn img {
+    width: min(230px, 64vw) !important;
+  }
+
+  /* Content sections become clean image-and-copy bands. */
+  #ps-legacy .tile > .center,
+  #ps-legacy .tile > .bottom,
+  #ps-legacy .tile > center > .bottom {
+    width: 100% !important;
+    padding: 28px 20px 34px !important;
+    background: var(--mobile-bg) !important;
+  }
+  #ps-legacy .title,
+  #ps-legacy .title2,
+  #ps-legacy .titleb,
+  #ps-legacy .titleb2,
+  #ps-legacy .titlel,
+  #ps-legacy .titlelb,
+  #ps-legacy h1 {
+    width: 100% !important;
+    margin: 0 0 12px !important;
+    padding: 0 !important;
+    color: var(--mobile-text) !important;
+    font-size: 25px !important;
+    line-height: 1.25 !important;
+    letter-spacing: 0 !important;
+    text-align: center !important;
+    text-align-last: center !important;
+  }
+  #ps-legacy .text,
+  #ps-legacy .textb,
+  #ps-legacy .textl,
+  #ps-legacy .textlb,
+  #ps-legacy .smalltext1 {
+    width: 100% !important;
+    max-width: 620px !important;
+    margin-inline: auto !important;
+    padding: 0 !important;
+    color: var(--mobile-muted) !important;
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+    text-align: left !important;
+    text-align-last: left !important;
+  }
+  #ps-legacy .text br,
+  #ps-legacy .textb br,
+  #ps-legacy .textl br,
+  #ps-legacy .textlb br {
+    content: " ";
+  }
+  #ps-legacy .text br::after,
+  #ps-legacy .textb br::after,
+  #ps-legacy .textl br::after,
+  #ps-legacy .textlb br::after {
+    content: " ";
+  }
+
+  /* Product/device art should support the copy, not fill several screens. */
+  #ps-legacy img[src*="main_2"],
+  #ps-legacy img[src*="message_1"],
+  #ps-legacy img[src*="chat_4"],
+  #ps-legacy img[src*="pack_16"] {
+    width: auto !important;
+    max-width: 78% !important;
+    max-height: 480px !important;
+    object-fit: contain !important;
+    margin: 24px auto !important;
+  }
+  #ps-legacy img[src*="secure_1"],
+  #ps-legacy img[src*="secure_2"],
+  #ps-legacy img[src*="secure_3"],
+  #ps-legacy img[src*="secure_4"],
+  #ps-legacy img[src*="secure_5"] {
+    width: 116px !important;
+    margin: 30px auto 12px !important;
+  }
+  #ps-legacy img[src*="message_2"],
+  #ps-legacy img[src*="chat_1"],
+  #ps-legacy img[src*="chat_2"],
+  #ps-legacy img[src*="pack_15"],
+  #ps-legacy img[src*="pack_22"] {
+    width: auto !important;
+    max-width: 180px !important;
+    margin: 18px auto !important;
+  }
+  #ps-legacy .skrollable,
+  #ps-legacy div[style*="position: absolute"]:not(.mmenu) {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 20px !important;
+  }
+
+  /* Keep charts and editorial photography legible without distortion. */
+  #ps-legacy img[src*="whether_1"],
+  #ps-legacy img[src*="whether_2"] {
+    width: 100% !important;
+    margin: 18px auto !important;
+  }
+  #ps-legacy div[style*="background-color: #f4f0eb"] {
+    margin: 0 16px 18px !important;
+    padding: 20px !important;
+    border-radius: 6px !important;
+    background: #f4f0eb !important;
+    color: #29282a !important;
+  }
+  #ps-legacy div[style*="background-color: #f4f0eb"] * {
+    color: #29282a !important;
+  }
+
+  /* Forms and cards use one comfortable column. */
+  #ps-legacy .ps-order-wrap,
+  #ps-legacy .ps-section {
+    padding: 32px 16px !important;
+  }
+  #ps-legacy .ps-order-head {
+    padding: 0 4px 22px !important;
+  }
+  #ps-legacy .ps-order-lead,
+  #ps-legacy .ps-verify-note,
+  #ps-legacy .ps-order-note {
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+  }
+  #ps-legacy .ps-card {
+    width: 100% !important;
+    margin: 0 0 16px !important;
+    padding: 20px 18px !important;
+    border: 1px solid var(--mobile-line) !important;
+    border-radius: 6px !important;
+    background: var(--mobile-panel) !important;
+  }
+  #ps-legacy .ps-field,
+  #ps-legacy input:not([type="checkbox"]):not([type="radio"]):not([type="image"]),
+  #ps-legacy select,
+  #ps-legacy textarea {
+    min-height: 48px !important;
+    margin: 6px 0 14px !important;
+    padding: 11px 12px !important;
+    border: 1px solid #56565d !important;
+    border-radius: 5px !important;
+    background: #303035 !important;
+    color: var(--mobile-text) !important;
+  }
+  #ps-legacy .ps-add-btn,
+  #ps-legacy .ps-submit {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Compact footer with a clear brand lockup. */
+  #ps-legacy .footer1 {
+    display: none !important;
+  }
+  #ps-legacy .footer2 {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto !important;
+    align-items: center !important;
+    gap: 14px !important;
+    min-height: 88px !important;
+    padding: 18px 20px !important;
+    border-top: 1px solid var(--mobile-line) !important;
+  }
+  #ps-legacy .footer2 .left,
+  #ps-legacy .footer2 .right {
+    width: auto !important;
+    min-width: 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+  }
+  #ps-legacy .footer2 img {
+    width: 150px !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+  #ps-legacy .footer2 span {
+    max-width: 130px !important;
+    padding: 0 !important;
+    color: var(--mobile-muted) !important;
+    font-size: 10px !important;
+    line-height: 1.35 !important;
+    letter-spacing: 1px !important;
+    text-align: right !important;
+  }
+}
