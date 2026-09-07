@@ -1137,4 +1137,82 @@ li.mmh {
     letter-spacing: 1px !important;
     text-align: right !important;
   }
+
+  /* Page-specific repairs for the archive's decorative compositions. */
+  #ps-legacy .main:has(> img[src*="pack_1"]) .titleb,
+  #ps-legacy .main:has(> img[src*="pack_1"]) .textb {
+    color: #302e2e !important;
+    text-shadow: none !important;
+  }
+  #ps-legacy #p1 {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 30px 20px 34px !important;
+  }
+  #ps-legacy #p1 > img[src*="pack_17"] {
+    display: none !important;
+  }
+  #ps-legacy #p1 > .center {
+    order: 1;
+    padding: 0 0 20px !important;
+  }
+  #ps-legacy #p1 > img[src*="pack_16"] {
+    order: 2;
+    max-width: 82% !important;
+    margin: 8px auto !important;
+  }
+  #ps-legacy #p1 > a {
+    order: 3;
+    display: block !important;
+    margin: 12px auto 0 !important;
+  }
+  #ps-legacy #p1 > a img {
+    width: 34px !important;
+  }
+
+  #ps-legacy .tile:has(img[src*="chat_4"]) {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 28px 20px 36px !important;
+  }
+  #ps-legacy .tile:has(img[src*="chat_4"]) > div:last-child {
+    order: 1;
+    padding: 0 !important;
+  }
+  #ps-legacy .tile:has(img[src*="chat_4"]) > .skrollable {
+    order: 2;
+    padding: 0 !important;
+  }
+  #ps-legacy .tile:has(img[src*="chat_4"]) img[src*="chat_4"] {
+    max-width: 68% !important;
+    max-height: 390px !important;
+  }
+
+  #ps-legacy img[src*="secure_1"],
+  #ps-legacy img[src*="secure_2"],
+  #ps-legacy img[src*="secure_3"],
+  #ps-legacy img[src*="secure_4"],
+  #ps-legacy img[src*="secure_5"] {
+    width: 180px !important;
+    max-width: 52vw !important;
+  }
+
+  #ps-legacy .tile:has(> img[src*="images/w2.png"]),
+  #ps-legacy img[src*="images/w3.png"],
+  #ps-legacy img[src*="images/w4.png"] {
+    display: none !important;
+  }
+  #ps-legacy div:has(> img[src*="images/w3.png"]) {
+    padding: 14px 20px !important;
+    color: var(--mobile-muted) !important;
+    font-size: 13px !important;
+    letter-spacing: 1px !important;
+  }
+  #ps-legacy div[style*="background-color: #f4f0eb"] .btn {
+    width: auto !important;
+    margin-top: 16px !important;
+    padding: 0 !important;
+    color: #257a9e !important;
+    text-align: left !important;
+  }
 }
